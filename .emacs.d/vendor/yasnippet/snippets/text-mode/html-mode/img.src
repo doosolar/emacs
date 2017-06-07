@@ -1,0 +1,4 @@
+#contributor : Frank Yin <doosolar@gmail.com>
+#name : <img src="..." />
+# --
+<img src="$1" />

@@ -1,0 +1,7 @@
+*~
+*#
+.DS_Store
+.emacs.d/ac-comphist.dat
+.emacs.d/bookmarks
+.emacs.d/auto-save-list
+.emacs.d/tramp

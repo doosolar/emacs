@@ -1,0 +1,4 @@
+#contributor : Yin Yonggang <doosolar@gmail.com>
+#name : <?php bloginfo('template_url') ?>
+# --
+<?php bloginfo('template_url') ?>
