@@ -49,7 +49,15 @@
 ;; 								(rgrep)
 ;; 								)
 ;;  )
-(global-set-key (kbd "<f4>") 'query-replace-regexp) ; 正则替换
+
+(global-set-key (kbd "<f4>") 'find-name-dired)
+;; 在多个文件中正则替换，find-name-dired 是第一步，找出想替换的文件
+;; 第二步：t , 选中第一步得到的列表中的所有文件
+;; 第三步：Q 执行：Query-Replace in Files...，就可以了。
+
+;; 如果希望替换的是文件本身的名字
+;; 前两步和在多个文件中正则替换是一样的，区别只有第三步：
+;; 第三步：%R 随后的又都一样了。
 
 ;;revert
 (global-auto-revert-mode 0)
