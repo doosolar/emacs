@@ -5,3 +5,6 @@
 .emacs.d/bookmarks
 .emacs.d/auto-save-list
 .emacs.d/tramp
+.emacs.d/elpa/archives
+*copyright.yasnippet
+*copyright.yasnippet

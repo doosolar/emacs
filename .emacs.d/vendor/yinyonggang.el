@@ -1,8 +1,7 @@
 ;;;The elisp written by yin yonggang
-;;;version:1.0
-;;;date:20130930
-;;;author homepage:www.doosolar.com
-;;;The elisp written by yin yonggang
+;;;version: 1.2
+;;;date:2013/09/30; 2017/11/10
+;;;author webpage: www.doosolar.com
 
 ;;在目录模式（dired-mode）中，把文件在指定的窗口中打开。
 (global-set-key (kbd "<f8>") 
@@ -83,6 +82,7 @@
 
 ;; Trigger display line numbers
 (global-set-key (kbd "C-c 1") 'global-linum-mode)
+(global-linum-mode t)
 
 ;;tramp 打开远程文件时候 ControlPath too long 问题解决
 (put 'temporary-file-directory 'standard-value '((file-name-as-directory "/tmp")))
