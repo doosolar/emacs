@@ -8,6 +8,7 @@
 	  emacs -nw
 
 	3 按键的说明：
+
 	  Control键：简写为 C
 	  Meta键：简写为 M
 	  比如：下面的按键操作：
