@@ -3,8 +3,10 @@
 	  以git库在 /emacs.git/ 为例：
 	  ln -s /emacs.git/.emacs ~/.emacs
 	  ln -s /emacs.git/.emacs.d ~/.emacs.d
+	  
 	2 运行：建议以非图形窗口的模式运行，命令如下：
 	  emacs -nw
+
 ## 常用操作
 ### 窗口分割
 	 C-x 3  : 左右分割
